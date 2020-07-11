@@ -1,0 +1,61 @@
+body
+{
+    background-color: gainsboro;
+}
+h1
+{
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+button
+{
+    background-color: black;
+    border-radius: 10px;
+    border: 5px solid black;
+    margin-right: 5px;
+    color: white;
+}
+img
+{
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+.head
+{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+}
+.butn
+{
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 420px;
+}
+@media only screen and (max-width : 520px)
+{
+    img
+    {
+        margin: 20px 0px;
+        height: 300px;
+        width: 300px;
+    }
+    .head
+    {
+        right: 30%;
+    }
+    .butn
+    {
+        margin: 0px 0px 0px 70px;
+    }
+}
+@media only screen and (max-width : 765px)
+{
+    img{
+        margin-right:0px;
+    }
+}
